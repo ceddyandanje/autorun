@@ -23,7 +23,7 @@ if __name__ == "__main__":
         if is_chrome_running():
             print("Chrome is running, scrolling down.")
             scroll_down(10) 
-            time.sleep(5)  
+            time.sleep(2)  
         else:
             print("Chrome is not running, waiting.")
-            time.sleep(5)  
+            time.sleep(3)  
